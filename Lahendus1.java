@@ -6,5 +6,8 @@ public class Lahendus1{
 		System.out.println(" * ")
 		System.out.println(" * ")
 	}
-	public static void main(String[] )
+	public static void main(String[] args){
+		trykiA();
+		trykiA();
+	}
 }
