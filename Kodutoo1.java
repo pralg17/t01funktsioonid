@@ -36,8 +36,4 @@ public class Kodutoo1{
 //Käsud: java Kodutoo1 4 0.5 0.25 0.2 0.2 0.2 3000000
 //Tulemus: Nii mitu tsivilisatsiooni peaks olema meie galaktikas: 12000.0
 
-
-
-
-
-
+//Oleneb, kust andmed võta, vastused erinevad väga palju.
