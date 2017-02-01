@@ -37,3 +37,7 @@ public class Kodutoo1{
 //Tulemus: Nii mitu tsivilisatsiooni peaks olema meie galaktikas: 12000.0
 
 
+
+
+
+
