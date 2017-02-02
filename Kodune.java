@@ -10,3 +10,9 @@ public class Kodune{
 		System.out.println(ristkylik(2, 4));
 	}
 }
+/*
+[marirein@greeny t01funktsioonid]$ javac Kodune.java
+[marirein@greeny t01funktsioonid]$ java Kodune
+8.0
+
+*/
