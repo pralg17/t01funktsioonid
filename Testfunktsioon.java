@@ -10,3 +10,12 @@ public class Testfunktsioon{
 		System.out.println(Math.round(meetriteks(3)*100)/100.0);
 	}
 }
+
+/*
+
+[krisliiv@greeny t01funktsioonid]$ java Testfunktsioon
+2.0
+3000.0
+
+
+*/
