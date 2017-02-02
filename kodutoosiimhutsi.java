@@ -13,3 +13,8 @@ public class kodutoosiimhutsi{
 
     }
 }
+/*
+[siimhuts@greeny t01funktsioonid]$ java kodutoosiimhutsi
+6.0 tundi
+360.0 minutit
+*/
