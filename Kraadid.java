@@ -26,3 +26,9 @@ public class Kraadid{
 	}
 	
 }
+/*
+[johareil@greeny t01funktsioonid]$ java Kraadid
+16.9
+101.4
+
+*/
