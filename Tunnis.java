@@ -16,3 +16,6 @@ public class Tunnis {
 
 	}
 }
+
+// Thetloffline:t01funktsioonid toomasthetloff$ java Tunnis
+//  62.56
