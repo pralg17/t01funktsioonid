@@ -30,4 +30,4 @@ public class Alamprogrammid1{
 1.27
 1.18
 1.1811
-*/
+*/  
