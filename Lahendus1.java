@@ -7,3 +7,7 @@ public class Lahendus1{
 		System.out.println(korrutamine2(6));				
 	}
 }
+/*
+[oaheinla@greeny t01funktsioonid]$ java Lahendus1
+12.0
+*/
