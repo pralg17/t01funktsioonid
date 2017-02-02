@@ -28,5 +28,13 @@ public class Alamprogrammid{
         System.out.println(Math.round(tollideks(3)*100)/100.0);
         System.out.println(ymarda(tollideks(89237), 2));
         System.out.println(ymardaTsykliga(tollideks(89237), 2));
+
     }
 }
+/*
+1.27
+1
+1.18
+35132.68
+35132.68
+ */
