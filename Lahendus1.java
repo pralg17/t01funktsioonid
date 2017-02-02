@@ -1,7 +1,7 @@
 public class Lahendus1{
 	public static void trykiA(){
-			for (int i = 0; i < 10; i++) {
-			int random = (int)(Math.random() * 11);
+			for (int i = 1; i > 0; i++) {
+			int random = (int)(Math.random() * 10);
 			System.out.print(random);
 		}
 	}
