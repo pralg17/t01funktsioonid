@@ -19,3 +19,9 @@ public class Lahendus1 {
    }
   
 }
+/*
+
+[heinparn@greeny t01funktsioonid]$ java Lahendus1
+Miinimumarv = 4
+
+*/
