@@ -7,3 +7,7 @@ public class test{
  		System.out.println(meetriteks(3.4));
  	}
 }
+/*
+[artutulp@greeny t01funktsioonid]$ java test
+3400.0
+*/
