@@ -12,3 +12,11 @@ public class Kodune{
 		System.out.println(meetriteks(3.4));
 	}
 }
+
+/*
+
+[rasmaavi@greeny t01funktsioonid]$ java Kodune
+2.5
+3400.0
+ 
+*/
