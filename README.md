@@ -4,7 +4,7 @@
     Igaüks koostab omaloodud funktsiooni ning näitprogrammi selle kasutamise kohta.
     Funktsioon looge võimalikult spetsiifiline (võib olla matemaatiliselt lihtne).
     
-### Seletud
+### Seletus
     Funktsioon kontrollib sisuliselt, et kas sisestatud stringi pikkus on 11 kohta. Tagastab booleean v22rtuse!
 
 ### .java failide asukoht
