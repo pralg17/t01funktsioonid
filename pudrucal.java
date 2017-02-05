@@ -36,3 +36,22 @@ public class pudrucal{
 		System.out.println("Kokku on: "+(banaan(n)+mesi(m)+kaerahelbed(s)+piim(p))+" kcal");
 	}
 }
+
+
+
+/*
+Mittu grammi banaani lisasite?
+100
+Mittu grammi mett lisasite?
+40
+Mittu grammi kaerahelbeid lisasite?
+50
+Mittu grammi piima lisasite?
+100
+Banaanist saad caloreid: 93.0
+Meest saad caloreid: 132.0
+Kaerahelvestest saad caloreid: 175.0
+Piimast saad caloreid: 52.0
+Kokku on: 452.0 kcal
+*/
+
