@@ -4,7 +4,7 @@ public class Lahendus1{
 		return arv*2;
 	}
 	public static void main(String[] arg){		
-		System.out.println(korrutamine2(6));				
+		System.out.println("2 * on: "+korrutamine2(6));				
 	}
 }
 /*
