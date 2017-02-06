@@ -1,6 +1,7 @@
 /*
 Leiab kolmnurga pindala kasutades k6iki kolme kylge
 */
+
 import java.util.Scanner; 
 public class Lahendus1{
 	public static float arvutus(float a, float b, float c){
