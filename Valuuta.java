@@ -2,6 +2,7 @@ public class Valuuta{
 	public static double kroonid(double euro) {
 		return euro * 9.44200;
 		}
+	//aste - 2
     static double ymarda(double arv, int aste){
 	return Math.round(arv*Math.pow(10,aste))/Math.pow(10,aste);
     }
