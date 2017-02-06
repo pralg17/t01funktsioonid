@@ -15,11 +15,10 @@ public class Kerge_teisendamine{
 
 /*
 
-Tulemus:
-[krisliiv@greeny t01funktsioonid]$ java Testfunktsioon
+[krisliiv@greeny t01funktsioonid]$ java Kerge_teisendamine
 Teisendamine meetriteks:
-500.0
+500.0 m
 Teisendamine kilomeetriteks:
-0.5
+6.75 km
 
 */
