@@ -4,3 +4,11 @@ public class ylesanne{
 		System.out.println("Tere.");
 	}
 }
+
+/*
+
+[ukupode@greeny t01funktsioonid]$ java ylesanne
+Tere.
+
+
+*/
