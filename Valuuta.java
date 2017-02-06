@@ -12,7 +12,7 @@ public class Valuuta{
 				euro = new Double(arg[0]);
 				}
 				catch(Exception e){
-				System.out.println(arg[0]+" annab ERROR-i");
+				System.out.println("ERROR");
 				}
 		System.out.println(euro+" eurot = "+ymarda(kroonid(euro),2)+" krooni");
 	}
