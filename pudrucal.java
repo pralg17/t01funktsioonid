@@ -53,5 +53,7 @@ Meest saad caloreid: 132.0
 Kaerahelvestest saad caloreid: 175.0
 Piimast saad caloreid: 52.0
 Kokku on: 452.0 kcal
+
+TEGI: Oscar August Heinla
 */
 
