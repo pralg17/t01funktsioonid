@@ -23,7 +23,7 @@ public class Kodutoo1{
 		}
 	}
 }
-
+//Selle valemi nimi on Drake Equation
 //Selle programmiga on võimalik välja arvutada hinnanguline number, kui mitu maavälist tsivilisatsiooni on olemas Linnutee galaktikas.
 //Esimene argument on tähtede moodustamise kiirus galaktikas.
 //Teine argument on tähed, mille ümber moodustuvad planeedid.
