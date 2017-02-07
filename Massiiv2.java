@@ -6,7 +6,7 @@ public class Massiiv2{
 		}
 		return abi;
 	}
-	//looge alamprogramm massiivi vähima elemendi leidmiseks
+	//alamprogramm massiivi vähima elemendi leidmiseks
 	public static int miinimum(int[] m){
 		int abi=m[0];
 		for(int i=1; i<m.length; i++){
@@ -14,6 +14,7 @@ public class Massiiv2{
 		}
 		return abi;
 	}
+	//alamprogramm massiivi suurima elemendi leidmiseks
 	public static int maksimum(int[] m){
 		int abi=m[0];
 		for(int i=1; i<m.length; i++){
