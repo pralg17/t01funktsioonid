@@ -24,3 +24,9 @@ public class Ring{
 	}
 	
 }
+
+/**
+
+Ringi pindala on umbkaudu 28.27431
+
+*/
