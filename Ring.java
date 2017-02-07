@@ -14,7 +14,8 @@ public class Ring{
 			return pindala;
 		
 	}
-	
+	 
+	 
 	
 	public static void main(String[] args){
 		System.out.println("Ringi pindala on umbkaudu " + pindala());
