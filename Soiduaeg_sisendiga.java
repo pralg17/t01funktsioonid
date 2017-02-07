@@ -21,12 +21,10 @@ public class Soiduaeg_sisendiga {
     //Vahemaa sisestus
     System.out.println("Sisesta teekonna pikkus (km): ");
     double teepikkus = in.nextDouble();
-    //double teepikkus = Double.parseDouble(args[0]);
+
     //Keskmise kiiruse sisestus
     System.out.println("Sisesta oma eeldatav keskmine kiirus (km/h).(NB! Maanteel ca 90km/h, linnas ca 50km/h)");
     double keskminekiirus = in.nextDouble();
-    //double keskminekiirus = Double.parseDouble(args[1]);
-
 
     double soiduaeg=soiduaeg(teepikkus, keskminekiirus);
     double minutid=minutid(soiduaeg);
