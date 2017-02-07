@@ -1,5 +1,7 @@
 public class Lahendus1{
 	public static void main(String[] args){
+		
+		Scanner scanner = new Scanner(System.in);
 		System.out.print("Sisesta kolmnurga alus: ");
 		alus = scanner.nextInt();
 	
