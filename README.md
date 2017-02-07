@@ -1,4 +1,4 @@
-# t01funktsioonid
+# t01funktsioonid TEST
 Omaloodud funktsioon
 
 Igaüks koostab omaloodud funktsiooni ning näitprogrammi selle kasutamise kohta.
