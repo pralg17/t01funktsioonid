@@ -23,3 +23,11 @@ public class eurosdollars{
 	}
 	
 }
+
+/*
+PROGRAMM KÜSIB KASUTAJALT MITU EUROT NEIL ON JA VASTAB KASUTAJALE MITU DOLLARIT, NAELA JA RUBLA TAL ON
+Mitu eurot teil on?
+500
+500.0 eurot on 520.0 dollarit, 420.0 naela ja 31685.0 rubla
+
+*/
