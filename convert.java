@@ -1,13 +1,18 @@
+//Arvutab kilomeetrid miilideks
+
 public class convert{
-	//Programm laseb kasutajal sisestada sentimeetrid ja konverteerib need tollideks.
-	public static void main(String[] arg){
-		//System.out.println("Sisesta mitu sentimeetrit soovite tesieldada tollideks");
-		System.out.println(Integer.parseInt(arg[0]) * 0.393700787);
+	static double miilideks(double kilomeetrid){
+		return kilomeetrid/1.60934;
+	}
+	public static void main(String[] args){
+		System.out.println(Math.round(miilideks(15)*100)/100.0);
 	}
 }
 
+
 /*
-[joosjuha@greeny t01funktsioonid]$ java convert 30
-11.81102361
+[joosjuha@greeny t01funktsioonid]$ java convert
+9.32 (15 km on 9,32 miili)
+
 
 */
