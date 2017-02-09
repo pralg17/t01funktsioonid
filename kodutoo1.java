@@ -1,6 +1,37 @@
 import java.util.Scanner;
 
 public class kodutoo1{
+	public static int summa(int[] a){
+		  int sum = 0;
+		  for(int i=0;i<a.length;i++){
+			sum = sum +a[i];
+		 }
+         return sum;
+	}
+	public static int suurim(int[]a){
+		int biggest = 0;
+		  for(int i=0;i<a.length;i++){
+			if(a[i]>biggest){
+			biggest = a[i];
+		  }
+		 }
+		 return biggest;
+	}
+	
+	public static int vaikseim(int[]a){
+		int smallest = 1000;
+		  for(int i=0;i<a.length;i++){
+			if(a[i]<smallest){
+			smallest = a[i];
+		   }
+		 }
+		 return smallest;
+	}
+	public static int keskmine(int[]a){
+		int avg ;
+		  avg = summa(a)/a.length;
+		return avg;  
+	}
 	public static void main(String[] args){
 		 int i,n;
 		 Scanner userInputScanner = new Scanner(System.in);
@@ -18,28 +49,14 @@ public class kodutoo1{
 		   System.out.println("Sisestasid: " +a[i]);
 		 }
 
-		 
-		  int sum = 0;
-		  for(i=0;i<n;i++){
-			sum = sum +a[i];
-		 }
+		  int sum=summa(a);
+		  int biggest=suurim(a);
+		  int smallest =vaikseim(a);
+		  int avg=keskmine(a);
 
-		  int biggest = 0;
-		  for(i=0;i<n;i++){
-			if(a[i]>biggest){
-			biggest = a[i];
-		  }
-		 }
 
-		  int smallest = 1000;
-		  for(i=0;i<n;i++){
-			if(a[i]<smallest){
-			smallest = a[i];
-		   }
-		 }
 
-		  int avg ;
-		  avg = sum/n;
+
 
 		  System.out.println("Suurim arv : " +biggest);
 		  System.out.println("Väikseim arv : " +smallest);
@@ -49,28 +66,28 @@ public class kodutoo1{
 		  System.out.println("Viimasena sisestatud arv:"+a[a.length-1]);
 
 	}
+	
 }
 
 /*
 
 
-[karojyrg@greeny t01funktsioonid]$ javac kodutoo1.java
-[karojyrg@greeny t01funktsioonid]$ java kodutoo1
+
 Tere, mis su nimi on?
-Kärol-Milaine Jürgenson
-Tere Kärol-Milaine Jürgenson, mitu arvu soovid sisestada?
-4
+kärol
+Tere kärol, mitu arvu soovid sisestada?
+3
 Sisesta arvud:
-12 76 1 9
+12 37 65
 Sisestasid: 12
-Sisestasid: 76
-Sisestasid: 1
-Sisestasid: 9
-Suurim arv : 76
-Väikseim arv : 1
-Keskmine arv : 24
-Arvude summa : 98
+Sisestasid: 37
+Sisestasid: 65
+Suurim arv : 65
+Väikseim arv : 12
+Keskmine arv : 38
+Arvude summa : 114
 Esimesena sisestatud arv: 12
-Viimasena sisestatud arv:9
+Viimasena sisestatud arv:65
+
 
 */
