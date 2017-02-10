@@ -1,8 +1,9 @@
 import java.util.Scanner;
 
 class kalkulaator {
-	public static void main (String args[]) {
-		
+
+
+	function arvuta() {
 		System.out.println("vajuta [1], kui tahad arvutada kroonideks ja [2], kui tahad arvutada eurodeks");
 		Scanner scan1 = new Scanner(System.in);
 		double sisestus1;
@@ -27,4 +28,11 @@ class kalkulaator {
 		}
 		
 	} 
+
+
+
+
+	public static void main (String args[]) {
+		arvuta();	
+	}
 }
