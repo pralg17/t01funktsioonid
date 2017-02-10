@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+class kalkulaator {
+	public static void main (String args[]) {
+		
+		System.out.println("vajuta [1], kui tahad arvutada kroonideks ja [2], kui tahad arvutada eurodeks");
+		Scanner scan1 = new Scanner(System.in);
+		double sisestus1;
+		sisestus1 = scan1.nextDouble();
+		
+		if (sisestus1 == 1) {
+			System.out.println("Sisesta kroonide arv, mida soovid arvutada eurodeks: ");
+			Scanner kroon = new Scanner(System.in);
+			double numyks, vastus;
+			numyks = kroon.nextDouble();
+			vastus = numyks / 15.6466;
+			System.out.println(vastus);
+			
+
+		} else {
+			System.out.println("Sisesta eurode arv, mida soovid arvutada kroonideks: ");
+			Scanner euro = new Scanner(System.in);
+			double numkaks, vastus2;
+			numkaks = euro.nextDouble();
+			vastus2 = 15.6466 / numkaks;
+			System.out.println(vastus2);
+		}
+		
+	} 
+}
