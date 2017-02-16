@@ -1,21 +1,22 @@
 public class kodutoo1{
 
 	public static int summa(int number1, int number2){
-        //calculating number1 + number2;
+
         return number1 + number2;
+		
 	}
-    public static int vahe(int number1, int number2){   //calculating number1 - number2;
+    public static int vahe(int number1, int number2){
         
 		return number1 - number2;
 		
 	}
-    public static int korruta(int number1, int number2){    //calculating number1 * number2;
+    public static int korruta(int number1, int number2){ 
 
 		return number1 * number2;
 		
 	}
 	public static double jaga(int number1, int number2){
-        //calculating number1 / number2;
+
         return number1 / number2;
 		
 	}
