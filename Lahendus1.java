@@ -11,3 +11,18 @@ public class Lahendus1{
 		trykiA();
 	}
 }
+
+/*
+[jaagup@greeny t01funktsioonid]$ java Lahendus1
+  *
+ * *
+*   *
+*****
+*   *
+  *
+ * *
+*   *
+*****
+*   *
+
+*/
