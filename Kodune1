@@ -1,0 +1,24 @@
+public class Kodune1{
+	
+	public static float kolmnurgapindala (float a, float h){
+		
+		float s = (a * h)/2;
+		
+		return s;
+			
+	}
+	
+	public static void main(String[] args){
+		
+		float a, h;
+		Scanner scan = new Scanner(System.in);
+		System.out.print("Sisesta alus a: ");
+		a = scan.nextFloat();
+		System.out.print("Sisesta kõrgus h: ");
+		h = scan.nextFloat();
+		float s = kolmnurgapindala(a, h);
+		System.out.println("Kolmnurga pindala on: "s);
+		
+	}
+	
+} 
